@@ -622,6 +622,10 @@ public class BoneCP implements Serializable {
 
 			ConnectionPartition connectionPartition = connectionHandle.getOriginatingPartition();
 			maybeSignalForMoreConnections(connectionPartition);
+
+            if (connectionHandle.isExpired()) {
+                connectionHandle.internalClose();
+            }
 			
 			postDestroyConnection(connectionHandle);
 			connectionHandle.clearStatementCaches(true);

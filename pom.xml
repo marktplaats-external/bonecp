@@ -27,9 +27,9 @@
     <inceptionYear>2009</inceptionYear>
 
     <scm>
-       <url>http://github.com/wwadge/bonecp</url>
-       <connection>scm:git:ssh://github.com/wwadge/bonecp.git</connection>
-       <developerConnection>scm:git:ssh://git@github.com/wwadge/bonecp.git</developerConnection>
+       <url>http://github.com/marktplaats-external/bonecp</url>
+       <connection>scm:git:ssh://github.com/marktplaats-external/bonecp.git</connection>
+       <developerConnection>scm:git:ssh://git@github.com/marktplaats-external/bonecp.git</developerConnection>
    </scm>
 
 

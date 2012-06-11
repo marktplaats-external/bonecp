@@ -53,15 +53,15 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sonatype Nexus Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-
+            <id>mp.snapshots</id>
+            <url>http://mpnexus.corp.ebay.com/content/repositories/libs-snapshots-local
+            </url>
+        </snapshotRepository>    
+        
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Nexus Release Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>mp.releases</id>
+            <url>http://mpnexus.corp.ebay.com/content/repositories/libs-releases-local
+            </url>
         </repository>
     </distributionManagement>
 
